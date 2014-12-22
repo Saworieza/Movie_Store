@@ -3,6 +3,9 @@ source 'https://rubygems.org'
 gem 'foundation-rails'
 gem 'devise'
 
+gem 'redis', '~> 3.0.1'
+gem 'hiredis', '~> 0.4.5'
+
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.8'
 # Use sqlite3 as the database for Active Record
